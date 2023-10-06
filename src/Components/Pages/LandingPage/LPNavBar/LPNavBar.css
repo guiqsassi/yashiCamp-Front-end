@@ -1,0 +1,58 @@
+.LPNavHeader{
+    width: 100%;
+    height: 7vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    max-height: 70px;
+}
+.LPNav{
+    width: 40%;
+    height: 100%;
+
+}
+.LPNav li{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.LPNav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Cadastrar{
+    display: flex;
+width: 131px;
+height: 33px;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+border-radius: 71px;
+background: #009966;
+border: 0px;
+color: #FFF;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}

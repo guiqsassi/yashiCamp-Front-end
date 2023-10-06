@@ -1,0 +1,96 @@
+.campoInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    width: 70%;
+    max-width: 400px;
+
+}
+.campoInput input{
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    border: 0px;
+    
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%; /* 24px */
+}
+
+.campoInput label{
+    color: #067550;
+    margin-bottom: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+}
+.campoInput input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.campoInput textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.campoInput textarea{
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+    font-weight: 600;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    
+
+
+}
+.inputContainer{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #4A2C36;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.iconInput{
+    width: 26px;
+    margin: 0 10px 0 10px;
+
+}
+.passwordInput{
+    cursor: pointer;
+    width: 36px;
+    margin: 0 10px 0 10px;
+}
+.campoInput textarea::placeholder{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+}
+.campoInput input::placeholder{
+    color: #00000077;
+font-family: Open Sans;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
